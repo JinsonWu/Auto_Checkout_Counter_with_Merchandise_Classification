@@ -7,7 +7,9 @@ We researched on this for a whole semester, there were models we worked on, resp
 Our dataset is composed of merchandise with various backgrounds because customer is not constrainted to take the photo in a specific environment. We are eager to train a robust model that could accomodate to diversified images. There are three major types of backgrounds, indoor, market & store, and pure color. Each type contains 80 photos, there are 240 images in total.  
 
 ## Models
-**ResNet34**, **tiny-YOLOv2**, and **tiny-YOLOv4** are main models we researched on. A small batch training conducted in advance to compare performance (accuracy and frame rate) between models. Tiny-YOLOv4 surpassed the other two models in these aspects with huge gap. 
+**ResNet34**, **tiny-YOLOv2**, and **tiny-YOLOv4** are main models we researched on. A small batch training conducted in advance to compare performance (accuracy and frame rate) between models. Tiny-YOLOv4 surpassed the other two models in these aspects with huge gap.
+
+*Darkflow Weight&Img (Darknet's are inside the directory): https://drive.google.com/drive/folders/12Zaba2ZmzIQqDfZrd6Eup72dORZuPKx_?usp=sharing*
 
 ## Training
 Training specs are shown below (there are set up to be surroundings like real embedded system):
